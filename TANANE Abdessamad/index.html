@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Resto</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>R</span>esto <span>T</span>anane</a>
+        <div class=menutoggle onclick="toggleMenu();"></div>
+        <ul class="bar">
+            <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
+            <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+            <li><a href="#temoignage" onclick="toggleMenu();">Temoignage</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+            <a href="#" class="reserve"onclick="toggleMenu();">RESERVATION</a>
+
+        </ul>
+    </header>
+    <section class="banniere" id="banniere">
+        <div class="contenu">
+            <h2>Que Des Plats Délicieux</h2>
+            <p>Bienvenue au Resto Tanane nous avons toutes sortes de plats délicieux et bonne appétit </p>
+            <a href="#" class="btn1">Notre Menu</a>
+            <a href="#" class="btn2">Réservation</a>
+        </div>
+    </section>
+    <section class="apropos" id="apropos">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titre-texte"><span>A</span> Propos De Nous</h2>
+                <p>Nous avons la nourriture et les boissons les plus délecieux nous cuisinons toutes sortes de plats nationals et internationals et aussi les desserts et les glaces vous etes les bienvenus</p>
+            </div>
+            <div class="col50">
+                <div class="img">
+                    <img src="./images/salmon-518032_640.jpg" alt="image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="titre">
+            <h2 class="titre-texte"><span>M</span>enu</h2>
+            <p>Visez votre choix. Soyez confient. Bonne appétit.</p>
+        </div>
+        <div class="contenu">
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/appetite-1238513_640.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Speciales Salades</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/sushi-2608281_640.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Specials Asiatiques Plats</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/pizza-3199081_640.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Specials Pizzas</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/barbecue-1239434_640.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Specials Barbecues</h3>
+                </div>
+             </div>
+        </div>
+     <div class="titre">
+        <a href="#" class="btn1">Voir Plus</a>
+     </div>
+    </section>
+
+    <section class="temoignage" id="temoignage">
+        <div class="titre blanc">
+            <h2 class="titre-texte">Que Disent Nos <span>C</span>lients</h2>
+            <p>Nous sommes fières de vous sérvir merci.</p>
+        </div>
+        <div class="contenu">
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/ef3b3ad9-8179-44e7-a177-b78d5d6577bf.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Lmakla zwena walakin mnin Resto dial Tanane hangol khayba</p> 
+                    <h3>Anas Tazi</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/ca6ece6f-abac-48d5-bdf1-16f04ed944d1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>zwena w shawarma wa3ra w katchebe3 </p>
+                    <h3>Ayoub Zerrad</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/fc9eda9b-9c84-46e2-b4a6-fc52cff282af.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>3adi</p>
+                    <h3>Abdellah Zaki El Idrissi</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/fab88d89-b7d7-4951-b496-6ee13ec1fedf.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>zwena walakin ghaliya </p>
+                    <h3>Yassine Zidahi</h3>
+                </div>
+             </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="titre noir">
+            <h2 class="titre-text"><span>C</span>ontact</h2>
+            <p>On attend vos Contacts tout les moments</p>
+        </div>
+        <div class="contactform">
+            <h3>Envoyer un message</h3>
+            <div class="inputboite">
+                <input type="text" placeholder="Nom">
+            </div>
+            <div class="inputboite">
+                <input type="text" placeholder="email">
+            </div>
+            <div class="inputboite">
+                <textarea placeholder="message"></textarea>
+            </div>
+            <div class="inputboite">
+                <input type="submit" value="Envoyer">
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>copyright 2023 <a href="#">Tanane Abdessamad</a> Tous droits réservés</p>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header =document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+            const toggleMenu = document.querySelector('.menutoggle');
+            const bar = document.querySelector('bar');
+            menutoggle.classList.toggle('active');
+            bar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
